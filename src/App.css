@@ -40,3 +40,32 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+ background-color: rgba(211, 165, 105, 0.467);
+ border: 200px solid rgb(42, 30, 8)
+ ;
+}
+
+button:hover {
+  color: pink;
+}
+
+.title {
+  color: rgb(171, 122, 86);
+  font-size: xx-large;
+}
+
+.second {
+  color: rgb(199, 166, 76);
+  font-weight: bolder;
+  font-stretch: expanded;
+}
+
+tr:hover {
+  color: rgb(218, 140, 16);
+}
+
+.page {
+  color: blue;
+}
