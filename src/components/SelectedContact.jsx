@@ -27,6 +27,11 @@ function SelectedContact({selectedContactId, setSelectedContactId}) {
             <p>Name: {contact.name}</p>
             <p>Email: {contact.email}</p>
             <p>Phone: {contact.phone}</p>
+            <h3>Address</h3>
+                    <p>Street: {contact.address?.street}</p>
+                    <p>Suite: {contact.address?.suite}</p>
+                    <p>City: {contact.address?.city}</p>
+                    <p>Zip Code: {contact.address?.zipcode}</p>
         </div>
 
     ) : (
